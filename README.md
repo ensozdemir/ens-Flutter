@@ -6,7 +6,7 @@
 [H2OLog, Kullanıcıların günlük su tüketimlerini takip edebileceği, hatırlatmalar alabileceği ve su tüketim alışkanlıklarını analiz edebileceği bir uygulama.]
 
 ## Ekibimiz
-- **Danışman:** [https://github.com//keyvanarasteh] (Keyvan Arasteh)
+- **Danışman:** [https://github.com/keyvanarasteh] (Keyvan Arasteh)
 - **Takım Üyeleri:** 
  - Enes Özdemir (ensozdemir) [https://github.com/ensozdemir] 
 
