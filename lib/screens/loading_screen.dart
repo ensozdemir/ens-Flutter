@@ -30,16 +30,19 @@ class LoadingScreen extends StatelessWidget {
             
             
             // Yükleniyor yazısı
-            CircularProgressIndicator(),
+            //CircularProgressIndicator(),
 
-             DotLottieLoader.fromAsset("assets/motions/loading.lottie",
-                  frameBuilder: (BuildContext ctx, DotLottie? dotlottie) {
-                if (dotlottie != null) {
-                  return Lottie.memory(dotlottie.animations.values.single);
-                } else {
-                  return Container();
-                }
-              }),
+             SizedBox(
+               width: 170,
+               child: DotLottieLoader.fromAsset("assets/motions/loading.lottie",
+                    frameBuilder: (BuildContext ctx, DotLottie? dotlottie) {
+                  if (dotlottie != null) {
+                    return Lottie.memory(dotlottie.animations.values.single);
+                  } else {
+                    return Container();
+                  }
+                }),
+             ),
 
             SizedBox(height: 30),
 
